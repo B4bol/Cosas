@@ -1,0 +1,1 @@
+Es bueno bastante cutre pero la foto de hotwheels es un link.
