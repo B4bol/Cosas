@@ -1,0 +1,40 @@
+/*body {
+	color:red;
+	background-color:yellow;
+
+}*/
+
+/*body.rojo {
+	background-color:red;
+}
+body.blue {
+	background-color:blue;
+}*/
+
+/*td.xd {
+	background-color: orange
+}
+
+
+tr.primera {
+	background-color:pink;
+}
+tr.segunda {
+	background-color:green;
+}*/
+
+/*body.amarillo {
+	background-color:yellow;
+}*/
+tr.xd {
+	background-image:url(foto.png);
+}
+tr.xd2 {
+	background-image:url(foto2.jpg);
+}
+body {
+	background-image:url("foto2.jpg");
+	background-repeat:no-repeat;
+	background-position:bottom center;
+}
+
