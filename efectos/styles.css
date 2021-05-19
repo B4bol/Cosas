@@ -1,0 +1,117 @@
+/*div.azul {
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	transition: all 1s ease-out;
+}
+
+div.azul:hover {
+	background-color: yellow;
+	width: 500px;
+	height: 500px;
+}*/
+
+/*body.fondo:hover {
+	background-color: blue;
+}*/
+
+/*div.photo {
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	left: 500px;
+	background-color: yellow;
+	transition: all 1s ease-out;
+}
+
+div.photo:hover {
+	background-image: url("foto1.jpg");
+	width: 500px;
+	height: 500px;
+
+}*/
+
+/*div.photo {
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	background-image: url("cami1.jpg");
+	transition: all 1s ease-out;
+}
+
+div.photo:hover {
+	width: 600px;
+	height: 600px;
+}
+
+div.azul {
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	left: 700px;
+	background-image: url("zapa1.jpg");
+	transition: all 1s ease-out;
+}
+
+div.azul:hover {
+	width: 600px;
+	height: 600px;
+}*/
+
+div.menu {
+	position: absolute;
+	height: 200px;
+	width: 1200px;
+	top: 50%;
+	left: 50%;
+	margin-top:-100px;
+	margin-left:-600px;
+	background-color: red;
+}
+
+div.menu:hover {
+	
+}
+
+div.home {
+	position: absolute;
+	background-color: yellow;
+	height: 100px;
+	width: 300px;
+	top: 50px;
+	left: 50px;
+}
+
+div.home:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+div.fotos {
+	position: absolute;
+	background-color: yellow;
+	height: 100px;
+	width: 300px;
+	top: 50px;
+	left: 450px;
+}
+
+div.fotos:hover {
+	transform: rotate(-360deg);
+	transition: 1s;
+}
+
+div.contacto {
+	position: absolute;
+	background-color: yellow;
+	height: 100px;
+	width: 300px;
+	top: 50px;
+	left: 850px;
+}
+
+div.contacto:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}

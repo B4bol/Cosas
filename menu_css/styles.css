@@ -1,0 +1,173 @@
+div.menu{
+  position: absolute;
+  width: 900px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -450px;
+  background-color: #7D3C98;
+}
+div.barra_top{
+  position: absolute;
+  width: 850px;
+  height: 80px;
+  top: 20px;
+  left: 25px;
+  background-color: pink;
+}
+  div.inicio{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 15px;
+    left: 100px;
+    transform: rotate(7deg);
+    background-color: #E74C3C;
+    text-align: center;
+  }
+    div.inicio:hover{
+      transform: rotate(-0deg);
+      transition: all 1s ease-out
+    }
+  div.fotos{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 15px;
+    left: 350px;
+    transform: rotate(-7deg);
+    background-color: #E74C3C;
+    text-align: center;
+  }
+    div.fotos:hover{
+      transform: rotate(0deg);
+      transition: all 1s ease-out
+    }
+  div.contacto{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 15px;
+    left: 600px;
+    transform: rotate(7deg);
+    background-color: #E74C3C;
+    text-align: center;
+}
+  div.contacto:hover{
+    transform: rotate(-0deg);
+    transition: all 1s ease-out
+  }
+div.cuadro_centro{
+  position: absolute;
+  width: 850px;
+  height: 360px;
+  top: 120px;
+  left: 25px;
+  background-color: pink;
+}
+  /* centro= 410px */
+  div.cuadro_centro_tl{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 160px;
+    left: 390px;
+    background-color: red;
+  }
+    div.cuadro_centro_tl:hover{
+      transform: scale(2,2) translate(-50px,-50px);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_tr{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 160px;
+    left: 430px;
+    background-color: red;
+  }
+    div.cuadro_centro_tr:hover{
+      transform: scale(2,2) translate(50px,-50px);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_t{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 160px;
+    left: 410px;
+    background-color: blue;
+  }
+    div.cuadro_centro_t:hover{
+      transform: scale(2,2) translate(0,-50px);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_l{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 180px;
+    left: 390px;
+    background-color: blue;
+  }
+    div.cuadro_centro_l:hover{
+      transform: scale(2,2) translate(-50px,0);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_r{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 180px;
+    left: 430px;
+    background-color: blue;
+  }
+    div.cuadro_centro_r:hover{
+      transform: scale(2,2) translate(50px,0px);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_b{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 200px;
+    left: 410px;
+    background-color: blue;
+  }
+    div.cuadro_centro_b:hover{
+      transform: scale(2,2) translate(0,50px);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_br{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 200px;
+    left: 390px;
+    background-color: red;
+  }
+    div.cuadro_centro_br:hover{
+      transform: scale(2,2) translate(-50px,50px);
+      transition: all 1s ease-out
+    }
+  div.cuadro_centro_bl{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 200px;
+    left: 430px;
+    background-color: red;
+  }
+    div.cuadro_centro_bl:hover{
+      transform: scale(2,2) translate(50px,50px);
+      transition: all 1s ease-out
+    }
+div.publicidad{
+  position: absolute;
+  width: 850px;
+  height: 80px;
+  top: 500px;
+  left: 25px;
+  background-color: pink;
+}
