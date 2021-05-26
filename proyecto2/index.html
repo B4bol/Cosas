@@ -13,6 +13,7 @@
 
     <header>
       <nav>
+        <h1 class="tm-page-header">Chilling Cafe</h1>
         <div class="logo">
           <a href="#"><img src="https://i.pinimg.com/originals/3e/03/ba/3e03ba29cb1f21ffdba45d58a76467f7.png" alt="Cafe Logo"></a>
         </div>
@@ -31,14 +32,26 @@
         </div>
       </nav>
     </header>
-
+    
     <div class="tm-container">
       <div class="tm-text-white tm-page-header-container">
         <i class="fas fa-mug-hot fa-2x tm-page-icon"></i>
-        <h1 class="tm-page-header">Chilling Cafe</h1>
       </div>
       <div class="tm-main-content">
-        <div id="tm-intro-img"></div>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#news">Noticias</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li style="float:right"><a href="#about">Sobre Nosotros</a></li>
+        </ul>
+        <div id="tm-intro-img"><img src="fotocafeprincipal.jpg" usemap="#image-map"></div>
+
+        <map name="image-map">
+            <area target="_blank" alt="jarra" title="jarra" href="https://www.solucioneshosteleras.com/p2039790-jarra-negra-anti-adherente-para-leche-olympia.html" coords="84,182,35,180,37,272,86,359,91,380,104,409,117,415,175,417,225,408,225,269,221,192,231,143,89,144,84,160" shape="poly">
+            <area target="_blank" alt="cafe" title="cafe" href="https://cafemalist.com/granos-de-cafe/" coords="303,448,400,429,498,447,558,472,586,492,615,516,594,531,558,529,492,526,462,532,411,522,383,517,355,512,320,515,307,526,270,530,255,519,227,521,202,525,170,522,166,511,189,508,221,506,252,504,279,493,294,496,288,478" shape="poly">
+            <area target="_blank" alt="vaso" title="vaso" href="https://www.amazon.com/-/es/Bormioli-Rocco-conveniente-calientes-resistente/dp/B07VYTVHDZ" coords="400,270,515,274,517,292,538,304,548,318,551,335,547,349,536,360,516,367,504,377,499,428,459,431,409,423" shape="poly">
+            <area target="_blank" alt="vaso-ceramica" title="vaso-ceramica" href="https://espaciomenaje.com/producto/mesa/vasos/cuajada-yogurt/vaso-15-cls-recto-para-cuajada-barro/?utm_source=Google%20Shopping&amp;utm_campaign=Google%20Shopping&amp;utm_medium=cpc&amp;utm_term=7163&amp;gclid=CjwKCAjw47eFBhA9EiwAy8kzNGAV8_L6ft1Kn7BT9VErKm-j9JCl-sXwAVKpCyEQ0345YD9NTPeA6BoCtkkQAvD_BwE" coords="" shape="poly">
+        </map>
         <!-- Coffee Menu -->
         <section class="tm-section">
           <h2 class="tm-section-header">Coffee Menu</h2>
@@ -46,9 +59,9 @@
             <table>
               <tr class="tm-tr-header">
                 <th>&nbsp;</th>
-                <th>Hot</th>
-                <th>Iced</th>
-                <th>Blended</th>
+                <th>Caliente</th>
+                <th>Helado</th>
+                <th>Batido</th>
               </tr>
               <tr>
                 <td class="tm-text-left">Americano</td>
@@ -81,13 +94,13 @@
                 <td>-</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Black Coffee</td>
+                <td class="tm-text-left">Cafe negro</td>
                 <td>15€</td>
                 <td>-</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Double Shot Expresso</td>
+                <td class="tm-text-left">Doble tiro Expresso</td>
                 <td>20</td>
                 <td>20</td>
                 <td>-</td>
@@ -98,47 +111,47 @@
 
         <!-- Tea Menu -->
         <section class="tm-section">
-          <h2 class="tm-section-header">Tea Menu</h2>
+          <h2 class="tm-section-header">Nuestros Tés</h2>
           <div class="tm-responsive-table">
             <table>
               <tr class="tm-tr-header">
                 <th>&nbsp;</th>
-                <th>Hot</th>
-                <th>Iced</th>
-                <th>Addon</th>
+                <th>Caliente</th>
+                <th>Frio</th>
+                <th>Aditivo</th>
               </tr>
               <tr>
-                <td class="tm-text-left">Pure White Milk</td>
+                <td class="tm-text-left">Te Leche Blanca Pura</td>
                 <td>5€</td>
                 <td>10€</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Hong Kong Tea</td>
+                <td class="tm-text-left">Te Hong Kong</td>
                 <td>8€</td>
                 <td>12€</td>
                 <td>4€</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Taiwan Tea</td>
+                <td class="tm-text-left">Te Taiwan</td>
                 <td>4€</td>
                 <td>10€</td>
                 <td>4€</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Bubble Tea</td>
+                <td class="tm-text-left">Te Burbujeado</td>
                 <td>8€</td>
                 <td>12€</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Mixed Fruit Tea</td>
+                <td class="tm-text-left">Te Frutas mixtas</td>
                 <td>10€</td>
                 <td>10€</td>
                 <td>8€</td>
               </tr>
               <tr>
-                <td class="tm-text-left">Original Tea</td>
+                <td class="tm-text-left">Te Original</td>
                 <td>12€</td>
                 <td>12€</td>
                 <td>-</td>
@@ -152,24 +165,57 @@
           <h2 class="tm-section-header">Cafes especiales</h2>
           <div class="tm-special-items">
             <figure class="tm-special-item">
-              <img src="img/cafe-especial-1.jpg" alt="Image" class="tm-special-item-img" />
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="img/cafe-especial-1.jpg" alt="Image" class="tm-special-item-img" />
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Copa</h1>
+                    <p>Cafe batido</p>
+                    <p>Suave y calentito</p>
+                  </div>
+                </div>
+              </div> 
               <figcaption>
                 <span class="tm-item-name">Copa suave deli</span>
-                <span class="tm-item-price">25€</span>
+                <span class="tm-item-price">3€</span>
               </figcaption>
             </figure>
             <figure class="tm-special-item">
-              <img src="img/cafe-especial-2.jpg" alt="Image" class="tm-special-item-img" />
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="img/cafe-especial-2.jpg" alt="Image" class="tm-special-item-img" />
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Dibujo</h1>
+                    <p>Cafe con dibujo</p>
+                    <p>Unico y original</p>
+                  </div>
+                </div>
+              </div>
               <figcaption>
                 <span class="tm-item-name">Cafe dibujado</span>
-                <span class="tm-item-price">30€</span>
+                <span class="tm-item-price">4€</span>
               </figcaption>
             </figure>
             <figure class="tm-special-item">
-              <img src="img/cafe-especial-3.jpg" alt="Image" class="tm-special-item-img" />
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="img/cafe-especial-3.jpg" alt="Image" class="tm-special-item-img" />
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Té estrella</h1>
+                    <p>Hiervas unicas</p>
+                    <p>Te sentiras mejor</p>
+                  </div>
+                </div>
+              </div>
               <figcaption>
                 <span class="tm-item-name">Te especial</span>
-                <span class="tm-item-price">35€</span>
+                <span class="tm-item-price">5€</span>
               </figcaption>
             </figure>
           </div>
