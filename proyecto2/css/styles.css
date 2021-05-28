@@ -15,6 +15,7 @@ Esta leyenda de aqui es para no liarme :D
 body {
   background-color: #3a4a58;
   color: #8c8c8c;
+  /* Antes tenia otras fuentes pero se rallaba pero lo dejo por si me da por poner otras fuentes q no se le vaya la pinza */
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 400;
