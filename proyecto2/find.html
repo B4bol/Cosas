@@ -41,27 +41,36 @@
       <div class="tm-main-content">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="news.html" class="active">Noticias</a></li>
+          <li><a href="news.html">Noticias</a></li>
           <li><a href="contact.html">Contacto</a></li>
-          <li><a href="find.html">Encuentranos</a></li>
+          <li><a href="find.html" class="active">Encuentranos</a></li>
           <li style="float:right"><a href="#about">Sobre Nosotros</a></li>
         </ul>
         <div id="tm-intro-img"></div>
         
+        <!-- Formulario -->
         <section class="tm-section tm-section-small">
-          <h2 class="tm-section-header">Ultimas noticias</h2>
-          <p>
-            Prueba ahora la ultima seleccion de sabores en te que tenemos en la carta
-            Esta cuenta con mas de 12 sabores distindos pero si no le atrae la idea siempre confiar en el cafe
-            
-          </p>
-        </section>
-        <section class="tm-section tm-section-small">
-          <h2 class="tm-section-header">CHOCOLATE!</h2>
-          <p>
-            Ahora en Chilling cafe tenemos a la venta chocolate caliente preparado especialmente
-            como a usted le gusta ya sea espumoso, denso o incluso con hielo.
-          </p>
+          <h2 class="tm-section-header">Contacto</h2>
+          <form action="index.html">
+
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+        
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">España</option>
+              <option value="canada">Francia</option>
+              <option value="usa">Otro</option>
+            </select>
+        
+            <label for="subject">Descripcion</label>
+            <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+          </form>
         </section>
 
         <!-- Hablanos -->

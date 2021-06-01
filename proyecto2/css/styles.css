@@ -359,39 +359,6 @@ a { transition: all 0.3s ease; }
 
 .tm-footer-link:hover { color: #c5ced8; }
 
-@media (max-width: 550px) {
-  .tm-special-item {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .tm-special-items {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .tm-special-item {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .tm-special-items {
-    margin-left: -5px;
-    margin-right: -5px;
-  }
-}
-
-@media (max-width: 430px) {
-  .tm-responsive-table { overflow-x: auto; }
-  table { width: auto; }
-  .tm-special-items { flex-direction: column; }
-  .tm-special-item { margin-bottom: 40px; }
-  figcaption p {
-    margin-bottom: 0;
-    line-height: 1;
-  }
-}
-
 /* formulario */
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -417,6 +384,21 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* boton enviar */
+input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=reset]:hover {
   background-color: #45a049;
 }
 
