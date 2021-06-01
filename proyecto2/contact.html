@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Chilling Cafe</title>
+    <meta charset="UTF-8" />
+    <!-- Este "<meta>" es para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- El "<meta>" que hay debajo de este comentario es pq en el movil se veia raro y en otros navegadores tambien entonces he encontrado eso q es como para que se sea compatible con todo porque es un estandar o algo asi -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <h1 class="tm-page-header">Chilling Cafe</h1>
+        <div class="logo">
+          <a href="#"><img src="https://i.pinimg.com/originals/3e/03/ba/3e03ba29cb1f21ffdba45d58a76467f7.png" alt="Cafe Logo"></a>
+        </div>
+        <div class="lang-menu">
+          <div class="selected-lang">
+            Español
+          </div>
+          <ul>
+            <li>
+              <a href="#" class="es">Español</a>
+            </li>
+            <li>
+              <a href="#" class="us">English</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="tm-container">
+      <div class="tm-text-white tm-page-header-container">
+        <i class="fas fa-mug-hot fa-2x tm-page-icon"></i>
+      </div>
+      <div class="tm-main-content">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">Noticias</a></li>
+          <li><a href="contact.html" class="active">Contacto</a></li>
+          <li><a href="#fotos">Encuentranos</a></li>
+          <li style="float:right"><a href="#about">Sobre Nosotros</a></li>
+        </ul>
+        <div id="tm-intro-img"></div>
+        
+        <!-- Formulario -->
+        <section class="tm-section tm-section-small">
+          <h2 class="tm-section-header">Contacto</h2>
+          <form action="index.html">
+
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+        
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">España</option>
+              <option value="canada">Francia</option>
+              <option value="usa">Otro</option>
+            </select>
+        
+            <label for="subject">Descripcion</label>
+            <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Enviar">
+          </form>
+        </section>
+
+        <!-- Hablanos -->
+        <section class="tm-section tm-section-small">
+          <h2 class="tm-section-header">Contactanos!</h2>
+          <p class="tm-mb-0">
+            Siguenos en nuestras redes sociales.
+          </p>
+          <div class="tm-social-icons">
+            <div class="tm-social-link-container">
+              <a href="https://fb.com" class="tm-social-link">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </div>
+            <div class="tm-social-link-container">
+              <a href="https://twitter.com" class="tm-social-link">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <div class="tm-social-link-container">
+              <a href="https://instagram.com" class="tm-social-link">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+            <div class="tm-social-link-container">
+              <a href="https://pinterest.com" class="tm-social-link">
+                <i class="fa fa-pinterest"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <p class="tm-text-white tm-footer-text">
+          Nesspreso tan bueno como el sexo:
+          <a href="https://lasallegrinon.es/" class="tm-footer-link" target="_blank">Nesspreso</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
