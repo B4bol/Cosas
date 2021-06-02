@@ -194,6 +194,97 @@ a.us:before {
   display: block;
 }
 
+header {
+  height: 110px;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo img  {
+  width: 100px;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menuen {
+  margin-top: 25px;
+  position: relative;
+}
+
+.selected-langen {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  width: 100px;
+}
+
+.selected-langen::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.io/us/shiny/32.png);
+}
+
+/* Este menu de aqui lo he hecho con CSS3 Generator es una web muy util te la recomiendo antonio aun que seguramente ya la conozcas */
+.lang-menuen ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+}
+
+.lang-menuen ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menuen ul li a {
+  width: 125px;
+  display: block;
+  padding: 5px 10px;
+}
+
+.lang-menuen ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.lang-menuen ul li a:hover {
+  background-color: #f2f2f2;
+}
+
+a.es:before {
+  background-image: url(https://www.countryflags.io/es/shiny/32.png);
+}
+
+a.us:before {
+  background-image: url(https://www.countryflags.io/us/shiny/32.png);
+}
+
+.lang-menuen:hover ul {
+  display: block;
+}
+
   /* Tabla de cafes */
 table {
   width: 100%;
