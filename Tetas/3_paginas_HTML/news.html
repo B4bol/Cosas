@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Active Directory</title>
+    <meta charset="UTF-8" />
+    <!-- Este "<meta>" es para moviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- El "<meta>" que hay debajo de este comentario es pq en el movil se veia raro y en otros navegadores tambien entonces he encontrado eso q es como para que se sea compatible con todo porque es un estandar o algo asi -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <header>
+      <nav>
+        <h1 class="tm-page-header">Windows Server 2008</h1>
+        <div class="logo">
+          <a href="#"><img src="img/xd.jpg"></a>
+        </div>
+    </header>
+    
+    <div class="tm-container">
+      <div class="tm-text-white tm-page-header-container">
+        <i class="fas fa-mug-hot fa-2x tm-page-icon"></i>
+      </div>
+        <div class="tm-main-content">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="news.html" class="active">Configuracion</a></li>
+            <li><a href="contact.html">Active Directory</a></li>
+            <li style="float:right"><a href="https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview">MICROSOFT</a></li>
+          </ul>
+          <div id="tm-intro-img"></div>
+          
+          <section class="tm-section tm-section-small">
+            <h2 class="tm-section-header">Configuracion:</h2>
+            <p>
+              Lo primero que encontramos al bootear en windows server 2008 es que se nos abre una ventana llamada “Tareas de configuración inicial”.<br><br>
+
+              En esta ventana tenemos varias opciones con las que configurar nuestro sistema operativo.
+            </p>
+          </section>
+          <section class="tm-section tm-section-small">
+            <h2 class="tm-section-header">Establecer zona horaria:</h2>
+            <p>
+              Tenemos un enlace azul llamado “Establecer zona horaria” le damos click y se nos abrirá una ventana con un reloj la hora y
+              fecha ahí tenemos un botón que dice “Cambiar fecha y hora” ahí podremos ajustar la fecha y la hora a los valores deseados.
+            </p>
+          </section>
+          <img src="img/hora.png" class="foto">
+          <section class="tm-section tm-section-small">
+            <h2 class="tm-section-header">Configurar funciones de red:</h2>
+            <p>
+              Para la configuración de red vamos a asignar un dns fijo entonces, si seguimos los pasos de la captura al llegar al 4 en
+              el protocolo de iPv4 le damos click derecho y propiedades se nos abrirá una ventana de propiedades
+              iPv4 aquí podemos asignar el dns deseado en esta caso usaremos el DNS preferido “1.1.1.1” y el DNS alternativo “4.4.4.4”.<br><br>
+              Así tendríamos nuestro dns preferido y de confianza listo y operativo.
+            </p>
+          </section>
+          <img src="img/red.png">
+          <section class="tm-section tm-section-small">
+            <h2 class="tm-section-header">Proporcionar nombre del equipo y dominio:</h2>
+            <p>
+              Si entramos en el enlace azul de “Proporcionar nombre del equipo y dominio” cuando le demos al boton de cambiar saldra el siguiente mensaje:
+            </p>
+            <img src="img/dominio.png">
+            <p>
+              Aceptamos y continuamos en la pestaña emergente ahí podremos cambiar el nombre del equipo, le damos a aceptar cuando decidamos el nombre y listo.
+            </p>
+            <img src="img/error.png">
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

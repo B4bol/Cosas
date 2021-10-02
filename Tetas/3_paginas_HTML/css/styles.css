@@ -1,0 +1,336 @@
+/* He importado el normalize para que no se le vaya la olla a las lineas */
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+/*
+Pagina trabajo final para Antonio <3
+
+Esta leyenda de aqui es para no liarme :D
+    Color fondo:             #3a4a58
+    Color tituto:            #996633
+    Color del texto:         #666666
+    Color oscuro del texto:  #333333
+    Tabla color Cabecero:    #C4CDD6
+    Tabla color alterno:     #e5e8ed
+*/
+
+body {
+  background-color: #3a4a58;
+  color: #8c8c8c;
+  /* Antes tenia otras fuentes pero se rallaba pero lo dejo por si me da por poner otras fuentes q no se le vaya la pinza */
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.tm-container {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tm-main-content { background-color: #ffffff; }
+
+.tm-main-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.tm-main-content li {
+  float: left;
+}
+
+.tm-main-content li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.tm-main-content li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#tm-intro-img {
+  background-image: url(../img/xd.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 425px;
+}
+
+.tm-text-white { color: white; }
+
+.tm-page-header-container { text-align: center; }
+
+.tm-page-header {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.tm-page-icon {
+  display: inline-block;
+  vertical-align: baseline;
+  padding: 15px;
+}
+
+.tm-section-header {
+  color: #996633;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+  /* Desplegable de idiomas */
+header {
+  height: 110px;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo img  {
+  width: 100px;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu {
+  margin-top: 25px;
+  position: relative;
+}
+
+.selected-lang {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  width: 100px;
+}
+
+.selected-lang::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.io/es/shiny/32.png);
+}
+
+/* Este menu de aqui lo he hecho con CSS3 Generator es una web muy util te la recomiendo antonio aun que seguramente ya la conozcas */
+.lang-menu ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+}
+
+.lang-menu ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  width: 125px;
+  display: block;
+  padding: 5px 10px;
+}
+
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.lang-menu ul li a:hover {
+  background-color: #f2f2f2;
+}
+
+a.es:before {
+  background-image: url(https://www.countryflags.io/es/shiny/32.png);
+}
+
+a.us:before {
+  background-image: url(https://www.countryflags.io/us/shiny/32.png);
+}
+
+.lang-menu:hover ul {
+  display: block;
+}
+
+header {
+  height: 110px;
+  padding: 10px 0;
+  background-color: #fff;
+}
+
+.logo {
+  width: 100px;
+}
+
+.logo img  {
+  width: 100px;
+}
+
+nav {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menuen {
+  margin-top: 25px;
+  position: relative;
+}
+
+.selected-langen {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  width: 100px;
+}
+
+.selected-langen::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.countryflags.io/us/shiny/32.png);
+}
+
+/* Este menu de aqui lo he hecho con CSS3 Generator es una web muy util te la recomiendo antonio aun que seguramente ya la conozcas */
+.lang-menuen ul {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #f8f8f8;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+}
+
+.lang-menuen ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menuen ul li a {
+  width: 125px;
+  display: block;
+  padding: 5px 10px;
+}
+
+.lang-menuen ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.lang-menuen ul li a:hover {
+  background-color: #f2f2f2;
+}
+
+a.es:before {
+  background-image: url(https://www.countryflags.io/es/shiny/32.png);
+}
+
+a.us:before {
+  background-image: url(https://www.countryflags.io/us/shiny/32.png);
+}
+
+.lang-menuen:hover ul {
+  display: block;
+}
+
+  /* Tabla de cafes */
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+td {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.tm-text-left { text-align: left; }
+
+th {
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+tr:nth-child(odd) { background-color: #e5e8ed; }
+
+tr.tm-tr-header {
+  background-color: #c4cdd6;
+  height: 50px;
+}
+
+.tm-section {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+
+.tm-section-small {
+  max-width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+
+img { max-width: 100%; }
+
+img.foto{
+  background-position: center;
+  background-size: cover;
+  min-height: 425px;
+}
