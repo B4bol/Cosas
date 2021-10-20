@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+
+        <script>
+            function takevalue()
+            {
+                const fname = document.getElementById("fname").value;
+                const lname = document.getElementById("lname").value;
+            }
+
+            document.write("TU INFORMACION: <br>" + "PRIMER NOMBRE: " + fname + "<br>")
+            document.write("APELLIDOS: " + lname)
+        </script>
+    </head>
+
+    <body>
+        <h1><u><b>Formulario de Contacto</b></u></h1>
+
+        <p>Danos tus datos y nos pondremos en contacto</p>
+
+        <form onsubmit="takevalue()">
+
+            <label for="fname">Nombre</label>
+            <input type="text" id="fname" name="Nombre" placeholder="Tu nombre "><br>
+        
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="Apellidos" placeholder="Tu apellido"><br>
+
+            <input type="submit" value="Submit">
+        
+          </form>
+          
+    </body>
+</html>
