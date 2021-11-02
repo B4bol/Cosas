@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Clase</title>
+        <meta name="description" content="Esta es mi primera pagina web">
+        <meta name="author" content="Mario">
+        <meta name="keywords" content="Mi primer titulo, mi primer pagina, pagina web">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript">
+            function recibir() {
+                var nombre = document.getElementById("nombre").value;
+                var telefono = document.getElementById("telefono").value;
+                document.write("El nombre y telefono: " + nombre + ", " + telefono);
+            }
+        </script>
+    </head>
+    <body>
+        <div class="agrupar">
+            <header class="cabecera">
+                <h1>Mi blog</h1>
+            </header>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Principal</a></li>
+                    <li><a href="ayuda.html">Ayuda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <section class="seccion">
+                <form id="form" method="get">
+                    <label>Nombre y apellidos</label>
+                    <input type="text" id="nombre" placeholder="Nombre.."><br><br>
+                    <label>Telefono</label>
+                    <input type="number" id="telefono" placeholder="telefono.."><br><br>
+                    <input type="button" name="enviar" value="mostrar" onclick="recibir();">
+                </form> <br><br><br>
+            </section>
+            
+            <aside class="columna">
+                <blockquote cite="http://www.faztweb.com">
+                    <a href="https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdf">MANUAL</a>
+                </blockquote>
+
+                <blockquote cite="http://facebook.com/fazttech">
+                    <a href="https://www.um.es/docencia/barzana/DAWEB/Lenguaje-de-programacion-JavaScript-1.pdf">MANUAL</a>
+                </blockquote>
+            </aside>
+
+            <footer class="pie">
+                Derechos reservados 2010-2020
+            </footer>
+        </div>
+    </body>
+</html>
