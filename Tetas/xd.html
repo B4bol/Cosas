@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="utf-S">
+        <script type="text/javascript">
+            function recibir() {
+                var nombre = document.getElementById("nombre").value;
+                var telefono = document.getElementById("telefono").value;
+                var profesion = document.getElementById("profesion").value;
+                document.write("El nombre , telefono y profesion: " + nombre + ", " + telefono + ", " + profesion);
+            }
+        </script>
+    </head>
+    <body>
+       <h1>Formulario de contacto</h1>
+       <p>Dejanos tus datos y nos pondremos en contacto con usted</p>
+
+        <form id="form" method="get">
+            <label>Nombre y apellidos</label>
+            <input type="text" id="nombre" placeholder="Nombre.."><br><br>
+            <label>Telefono</label>
+            <input type="number" id="telefono" placeholder="telefono.."><br><br>
+            <select name="profesion" id="profesion">
+                <option>Estudiante</option>
+                <option>Trabajador</option>
+            </select>
+            <br><br>
+            <input type="button" name="enviar" value="mostrar" onclick="recibir();">
+        </form>
+
+    </body>
+</html>
