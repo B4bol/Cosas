@@ -1,92 +1,41 @@
+<!-- 
 <!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>Fecha y hora</h2>
+    </body>
 
-<html lang=”es”>
+    <script>
+        document.write(new Date())
 
-<head>
+    </script> 
+    
+    <input type="button" value="Pulsa para ver fecha y hora" onclick="document.getElementById('demo').innerHTML = Date()">
+    <p id="demo"></p>
+</html> -->
 
-  <meta charset=”UTF-8″>
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>Conduces o que tonto</h2>
+    </body>
 
-  <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <script>
+        const edad = prompt("introduce tu edad: ")
 
-  <link rel="stylesheet" href="styles.css">
+        if (Number(edad) >= 18) {
+            document.write("Puedes conducir")
+        } else document.write("NO puedes conducir")
 
-  <title>Calculator</title>
 
-</head>
+    </script> 
+</html> -->
 
-<body>
-  <!– calculator –>
-
-  <div class=”calculator”>
-
- 
-
-    <!– display –>
-
-    <input type=”text” class=”display” disabled>
-
-    <!– keys –>
-
-    <div class=”keys”>
-
-      <!– 4 rows of keys –>
-
-      <div class=”row”>
-
-        <button value=”7″>7</button>
-
-        <button value=”8″>8</button>
-
-        <button value=”9″>9</button>
-
-        <button value=”+” class=”operator”>+</button>
-
-      </div>
-
-      <div class=”row”>
-
-        <button value=”4″>4</button>
-
-        <button value=”5″>5</button>
-
-        <button value=”6″>6</button>
-
-        <button value=”-” class=”operator”>-</button>
-
-      </div>
-
-      <div class=”row”>
-
-        <button value=”1″>1</button>
-
-        <button value=”2″>2</button>
-
-        <button value=”3″>3</button>
-
-        <button value=”*” class=”operator”>*</button>
-
-      </div>
-
-      <div class=”row”>
-
-        <button value=”C” class=”operator”>C</button>
-
-        <button value=”0″>0</button>
-
-        <button value=”/” class=”operator”>/</button>
-
-        <button value=”=” class=”operator”>=</button>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!– calculator body ends –>
-
-  <script src="index.js"></script>
-
-</body>
-
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <h2>Que puede hacer javascript?</h2>
+        <p id="xd">JavaScript puede cambiar contenido HTML</p>
+        <input type="button" value="Pulsame!" onclick="document.getElementById('xd').innerHTML = 'XDXD'">
+    </body>
 </html>
