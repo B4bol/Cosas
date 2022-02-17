@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
     <head>
         <meta charset="utf-S">
         <script type="text/javascript">
@@ -27,5 +27,48 @@
             <input type="button" name="enviar" value="mostrar" onclick="recibir();">
         </form>
 
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DNI</title>
+    </head>
+    <body>
+        <script>
+            let dni = prompt('Introduce tu DNI')
+
+            while (dni.length != 9) {
+                dni = prompt('El DNI debe tener 8 numeros y una letra')
+            }
+             
+            alert('El DNI es ' + dni.slice(0,-1) + ' y la letra es '+ dni.charAt(8))
+        </script>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CALC DNI</title>
+    </head>
+    <body>
+        <script>
+            let numero = prompt("Introduce un dni sin letra");
+            let letra = ["T", "R", "W", "A", "G", "M", "Y", "F", "P", "D", "X", "B", "N", "J", "Z", "S", "Q", "V", "H", "L", "C", "K", "E"];
+            
+            while (numero.length != 8) {
+                numero = prompt("El numero debe ser de 8 digitos");
+            }
+            
+            let resto = numero % 23;
+            alert("El numero del dni es " + numero + " y la letra es " + letra[resto])
+        </script>
     </body>
 </html>
