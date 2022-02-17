@@ -3,10 +3,13 @@
         <meta charset="utf-S">
         <script type="text/javascript">
             function recibir() {
-                var nombre = document.getElementById("nombre").value;
-                var telefono = document.getElementById("telefono").value;
+                var nombre = document.getElementById("nombre".value);
+                var telefono = document.getElementById("telefono".value);
                 var profesion = document.getElementById("profesion").value;
                 document.write("El nombre , telefono y profesion: " + nombre + ", " + telefono + ", " + profesion);
+            }
+            function goBack() {
+                window.history.back();
             }
         </script>
     </head>
